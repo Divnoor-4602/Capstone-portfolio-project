@@ -1,0 +1,31 @@
+.background-introduction {
+    background-color: #331D2C;
+}
+
+.background-skills {
+    background-color: #3F2E3E;
+}
+
+.background-contact {
+    background-color: #EFE1D1;
+}
+
+.pfp-container {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.custom-body-font {
+    font-family: "DM Sans";
+}
+
+.custom-title-font {
+    font-family: "Lora";
+}
+
+.python-icon {
+    width: 200px;
+    height: 200px
+}

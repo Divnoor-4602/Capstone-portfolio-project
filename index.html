@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio-Divnoor-Singh-Nagra</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="capstone-style.css">
+</head>
+
+<body>
+    <!--Navbar-->
+    <section id="navbar">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Div's Portfolio</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item p-2 fw-bold">
+                            <a class="nav-link" aria-current="page" href="#Me">Me</a>
+                        </li>
+                        <li class="nav-item p-2 fw-bold">
+                            <a class="nav-link" href="#Skills">Skills</a>
+                        </li>
+                        <li class="nav-item p-2 fw-bold">
+                            <a class="nav-link" href="#Projects">Projects</a>
+                        </li>
+                        <li class="nav-item p-2 fw-bold">
+                            <a class="nav-link" href="#Contact">Contact me</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </section>
+    <!--Introduction hero-->
+    <section class="introduction background-introduction" id="Me">
+        <div class="container">
+            <div class="px-4 py-5 mt-5 text-center">
+
+                <img class="d-block mx-auto mb-4 rounded-circle pfp-container" src="assets/images/IMG_2139.jpeg"
+                    alt="profile-photo">
+
+                <h1 class="display-6 fw-bold custom-title-font text-light">Divnoor Singh Nagra</h1>
+                <div class="col-lg-6 mx-auto">
+                    <p class="lead mb-4 text-light">Second-year computer science student, and future software
+                        developer, with
+                        expertise in Python programming and a knack for full-stack web development, data science and
+                        machine learning. My passion for software development has brought me to the University of Fraser
+                        Valley where I am pursuing my undergraduate degree.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <h3 id="Skills" class="display-3 custom-title-font text text-center background-skills text-white mb-0 p-3 fw-bold">
+        Skills
+    </h3>
+    <!--Skills album-->
+    <section id="skills" class="background-skills">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-lg-4 p-sm-2">
+                    <div class="card bg-dark text-light mx-auto" style="width: 20rem;">
+                        <img src="assets/images/python_icon.avif" class="card-img-top python-icon mx-auto pt-2"
+                            alt="python-image">
+                        <div class="card-body">
+                            <h5 class="card-title">Python</h5>
+                            <p class="card-text ">Experienced with back-end web development utilising Django and Flask
+                                frameworks, data analysis using pandas and plotting frameworks such as matplotlib,
+                                seaborn and plotly.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-lg-4 p-sm-22">
+                    <div class="card bg-dark text-light mx-auto" style="width: 20rem;">
+                        <img src="assets/images/ai-ml-icon.avif" class="card-img-top python-icon mx-auto pt-2"
+                            alt="ai-ml-icon">
+                        <div class="card-body">
+                            <h5 class="card-title">Machine Learning</h5>
+                            <p class="card-text">Experienced with regression, neural networks and vector machines,
+                                prompt engineering using chatgpt and various API's to create scalable models that solves
+                                real world problems.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-lg-4 p-sm-2">
+                    <div class="card bg-dark text-light mx-auto" style="width: 20rem;">
+                        <img src="assets/images/web-dev-icon.avif" class="card-img-top python-icon mx-auto pt-2"
+                            alt="web-development-icon">
+                        <div class="card-body">
+                            <h5 class="card-title">Web Development</h5>
+                            <p class="card-text">Full-stack web development utilising a MERN stack to develop scalable
+                                and modern webpages. Technologies used include Node.js, React.js, Mongo db as well as
+                                SQL database mapping.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Projects-->
+    <h3 id="Projects" class="display-3 custom-title-font fw-bold text-center background-skills text-white mb-0 p-4">
+        Projects
+    </h3>
+    <section id="projects" class="background-skills text-white">
+        <!--Project 1: spotify song downloaer-->
+        <div class="container">
+            <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+                <div class="col-10 col-sm-8 col-lg-6">
+                    <img src="assets/images/spotify-project.png" class="d-block mx-lg-auto img-fluid"
+                        alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+                </div>
+                <div class="col-lg-6">
+                    <h3 class="h3 mb-3 custom-title-font fw-bold">Spotify Song Downloader
+                        <div class="text-muted">Python</div>
+                    </h3>
+                    <ul class="list-group list-unstyled">
+                        <li class="list-group-item-primary text-white background-skills lead pb-2">Allows
+                            the
+                            user to download any
+                            spotify
+                            playlist or song
+                            through a uri/url link available on the spotify song or playlist details</li>
+                        <li class="list-group-item-primary text-white background-skills lead">
+                            Uses the spotify and youtube API wrappers namely <mark
+                                class="rounded-2 fw-bolder">Spotipy</mark> and
+                            <mark class="rounded-2 fw-bolder">pytube</mark> respectively
+                        </li>
+                        <li class="list-group-item-primary custom-body-font text-white background-skills lead"></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!--Project 2: full-stack Blog-->
+        <div class="container">
+            <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+                <div class="col-lg-6">
+                    <h3 class="h3 mb-3 custom-title-font fw-bold">Full-Stack Blog Project
+                        <div class="text-muted">Python, SQL, Flask</div>
+                    </h3>
+                    <ul class="list-group list-unstyled">
+                        <li class="list-group-item-primary text-white background-skills lead pb-2">Maintains, adds,
+                            edits and delete blog posts created by the <mark class="rounded-2 fw-bolder">admin</mark>
+                        </li>
+                        <li class="list-group-item-primary text-white background-skills lead">
+                            Uses authentication and forms to allow the users to <mark class="rounded-2 fw-bolder">sign
+                                up</mark> on the website and maintains a
+                            record in the database
+                        </li>
+                        <li class="list-group-item-primary custom-body-font text-white background-skills lead"></li>
+                    </ul>
+                </div>
+                <div class="col-10 col-sm-8 col-lg-6">
+                    <img src="assets/images/blo-project-1.png" class="d-block mx-lg-auto img-fluid"
+                        alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Contacct me-->
+    <h3 id="Contact"
+        class="display-3 custom-title-font fw-bold text text-center background-introduction text-white mb-0 p-4">
+        Get in touch!
+    </h3>
+    <section id="contact me" class="background-introduction pb-4">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div style="width: 500px;">
+                    <form class="pt-3 p-md-3 border rounded-3 bg-light">
+                        <div class="form-floating mb-3">
+                            <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                            <label for="floatingInput">Email address</label>
+                        </div>
+                        <div class="form-floating mb-3">
+                            <input type="text" class="form-control" id="floatingText" placeholder="Name">
+                            <label for="floatingPassword">Full name</label>
+                        </div>
+                        <div class="form-floating mb-3">
+                            <label for="exampleFormControlTextarea1" class="form-label">Write a message!</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        </div>
+                        <button class="w-100 btn btn-lg btn-dark submit-button" type="submit">Send</button>
+                        <hr class="my-4">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Footer-->
+    <section id="footer" class="background-contact p-1">
+        <div class="container background">
+            <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+                <div class="col-md-4 d-flex align-items-center">
+                    <span class="text-dark fw-bold">© 2023 Divnoor Singh Nagra</span>
+                </div>
+
+                <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+                    <li class="ms-3">
+                        <a href="https://www.instagram.com">
+                            <img src="assets/images/instagram-2.png" alt="instagram-2" style="width: 30px;">
+                        </a>
+                    </li>
+                    <li class="ms-3">
+                        <a href="https://github.com">
+                            <img src="assets/images/github.png" alt="github" style="width: 30px;">
+                        </a>
+                    <li class="ms-3">
+                        <a href="https://www.linkedin.com/feed/">
+                            <img src="assets/images/linkedin.png" alt=linkedin style="width: 30px;" />
+                        </a>
+                    </li>
+                </ul>
+            </footer>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+        </script>
+</body>
+
+</html>
